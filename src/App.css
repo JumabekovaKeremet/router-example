@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+  }
+.App .ulNav {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    min-height: 75px;
+    background-color: rgb(116, 16, 141);
+  }
+  .App .ulNav li {
+    list-style-type: none;
+  }
+  .App .ulNav li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .activeLink {
+    color: red;
+  }

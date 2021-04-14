@@ -1,5 +1,5 @@
-import PostList from "./PostList/PostList";
-import PostFull from "./PostFull/PostFull";
+import PostList from "./PostList/PostList.js";
+import PostFull from "./PostFull/PostFull.js";
 import classes from "./Posts.module.css";
 import { Route } from "react-router";
 
