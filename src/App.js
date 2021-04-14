@@ -1,4 +1,5 @@
-import { Redirect, Route, Switch } from "react-router";
+
+import {  Route, Switch } from "react-router";
 import { NavLink } from "react-router-dom";
 import "./App.css";
 import About from "./components/About/About";
@@ -6,6 +7,7 @@ import Contacts from "./components/Contacts/Contacts";
 import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
 import Posts from "./components/Posts/Posts";
+import logo from  "./imges/nasa-logo.svg";
 
 function App() {
   const activeLinkStyle = {
@@ -15,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <ul className="ulNav">
+      <li><img className="img" src = {logo} alt = ""/></li>
         <li>
           <NavLink
             exact
@@ -61,6 +64,7 @@ function App() {
         <Route path="/" component={NotFound} />
         {/* <Redirect to="/" /> */}
       </Switch>
+      
     </div>
   );
 }

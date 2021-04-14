@@ -1,0 +1,21 @@
+.About {
+    padding-top: 20px;
+   text-align: center;
+}   
+.About img{
+    height: 250px;
+    width: 1000px;
+}
+.about1 p{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    padding: 10px;
+    height: 100px;
+}
+.about1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+
+}

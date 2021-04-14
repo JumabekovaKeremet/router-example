@@ -1,0 +1,11 @@
+  
+.Home {
+    padding-top: 20px;
+    text-align: center;
+}
+.littlediv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
